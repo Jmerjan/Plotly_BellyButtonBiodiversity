@@ -126,7 +126,7 @@ async function init() {
         };
         
       var bubdata= [bubbletrace];
-
+      Plotly.newPlot("bubble", bubdata, bublayout);
 
 }
 
