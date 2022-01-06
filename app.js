@@ -1,7 +1,7 @@
 
 // Create initial INIT function that will read and run the function 
 async function init() {
-  const response = await fetch ("./samples.json");
+  const response = await fetch ("/samples.json");
   data = await response.json();
   console.log(data)
 
