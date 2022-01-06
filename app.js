@@ -98,7 +98,7 @@ async function init() {
     var bubotuids = samples[0].otu_ids
 
     //y bubble
-    var samplevalues= samples[0].sample_values
+    var bubsamplevalues= samples[0].sample_values
     
   
     //text values bubble
@@ -107,11 +107,11 @@ async function init() {
 
     var bubbletrace = {
       x: bubotuids,
-      y: samplevalues,
+      y: bubsamplevalues,
       text: bublabels,
       mode: 'markers',
       marker: {
-          size: samplevalues,
+          size: bubsamplevalues,
           color: bubotuids,
           colorscale: "Earth",
       }};
